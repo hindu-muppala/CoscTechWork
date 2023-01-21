@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenSys-2023|COSC</title>
+    <link rel="icon" type="image/x-icon" href="favicon_io\apple-touch-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="cards.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="screen">
+    body{
+        width:auto;
+        height:auto;
+    }   
+      *{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Footer{
+    background: #fcfcfc;
+    font-family: sans-serif;
+    position: relative;
+}
+/* #faq{
+    position: relative;
+    width: auto;
+} */
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 2.1rem;
+    font-weight: 650;
+    color: rgb(160, 61, 143);
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 85%;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 18px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+
+.socials a{
+    /* text-decoration: solid;
+    color: #fff;
+    padding:  5px;
+    justify-content: center;
+    
+    border-radius: 50%; */
+    border: 3px solid white;
+    margin: 20px;
+    padding: 10px;
+  font-size: 35px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.socials a i{
+    /* font-size: 1.5rem;
+    width: 25px;
+    height: 25px; */
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+    </style>
+    <link rel="stylesheet" href="faq.css">
+
+</head>
+<!--cards
+-->
+<section id="registration-section">
+
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-lg-6">
+              <div class="card text-center  register-card " >
+                <img class="card-img-top rounded-circle" src="images/img1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Git Cryptex</h5>
+                  <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint, aliquid at quis eos fugit nulla, voluptatibus
+                  </p> -->
+                  <p>An event aimed to test participants' knowledge on open-source technologies such as Git and GitHub</p>
+                  <ul>
+                    <li>Participation: Team Event (Team Size: 2)</li>
+                    <li>Date: 31st January 2023</li>
+                  </ul>
+                  <a href="#" class="btn btn-dark register-btn"><span class="bn39span">Register</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card text-center register-card">
+                <img class="card-img-top rounded-circle" src="images/img1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Cascade Arcade</h5>
+                  <br>
+                  <p class="card-text">An open-sourced event for all the design and UI/UX enthusiasts of the college community.</p>
+                  <br>
+                  <ul>
+                    <li>Participation: Individual Event</li>
+                    <li>Date: 31st January 2023</li>
+                  </ul>
+                  <a href="#" class="btn btn-dark register-btn"><span class="bn39span">Register</span></a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+              <div class="card text-center register-card" >
+                <img class="card-img-top rounded-circle" src="images/img1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Unicode Labyrinth(UCL)</h5>
+                  <p class="card-text">The event comprises 3 mazes, participants who complete all three mazes have the added advantage of designing a new maze which will be enforced upon all other upcoming participants.
+                  </p>
+                  <ul>
+                    <li>Participation: Individual Event</li>
+                    <li>Date: 1st February 2023</li>
+                  </ul>
+                  <a href="#" class="btn btn-dark register-btn"><span class="bn39span">Register</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card text-center register-card">
+                <img class="card-img-top rounded-circle" src="images/img1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Decipher</h5>
+                  <br>
+                  <p class="card-text">A scavenger hunt where participants compete against time and each other to decrypt a series of problem messages.
+                  </p>
+                  <ul>
+                    <li>Participation: Team Event (Team Size: 2)</li>
+                    <li>Date: 1st February 2023</li>
+                  </ul>
+                  <a href="#" class="btn btn-dark register-btn"><span class="bn39span">Register</span></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--
+faq section
+-->
+
+<div id="faq">
+    <main>
+
+        <h1 class="faq-heading">FAQ'S</h1>
+        <section class="faq-container">
+            <div class="faq-one">
+                <h1 class="faq-page">Question1</h1>
+                <div class="faq-body">
+                    <p>answer
+                        will be displayed 
+                        here
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-two">
+                <h1 class="faq-page">QUESTION2</h1>
+                <div class="faq-body">
+                    <p>answer</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+        </section>
+    </main>
+    <script src="faq.js"></script>
+</div>
+<!--
+    footer section
+-->
+<div id="Footer">
+    <footer>
+        <div class="footer-content">
+            <!-- <h2>COSC</h2>
+            <p>COSC is an open source focused tech community based in Chaitanya Bharathi Institute of Technology - Hyderabad. We conduct hackathons, bootcamps and workshops to teach students different technologies while promoting open source culture.</p>
+            <ul class="socials"> -->
+                <h2>OpenSys-2023</h2>
+                <h3>The Open-Source Symposium</h3>
+            <p>A series of fun, engaging and enthralling events that enable the participants to compete, collaborate and contribute to open-source ideas.</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/cbitosc/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/cbitosc?t=rWGqPsaidSTGfA8FpwPPUw&s=09"><i class="fa fa-twitter"></i></a></li>
+                
+                <li><a href= "https://www.instagram.com/cbitosc/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href = ><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
